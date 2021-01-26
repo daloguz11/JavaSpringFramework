@@ -11,6 +11,7 @@
     <modules>
         <module>SpringMongoRestApi</module>
         <module>HelloWorld</module>
+        <module>SpringElasticSearch</module>
     </modules>
 
     <properties>

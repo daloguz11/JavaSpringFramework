@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="SpringMongoRestApi" />
         <module name="HelloWorld" />
+        <module name="SpringElasticSearch" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="SpringElasticSearch" options="-parameters" />
       <module name="SpringMongoRestApi" options="-parameters" />
     </option>
   </component>
